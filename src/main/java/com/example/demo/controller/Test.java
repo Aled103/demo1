@@ -11,5 +11,9 @@ public class Test {
         System.out.println("test");
         return "test";
     }
+     public String test1(){
+        System.out.println("test1");
+        return "test1";
+    }
 
 }

@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping
 public class Test {
-  public String test1(){
-        System.out.println("test1");
-        return "test1";
+    @RequestMapping("/test")
+    public String test(){
+        System.out.println("test");
+        return "test";
     }
+
 }
